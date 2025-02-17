@@ -8,8 +8,8 @@ interface ColorBoxProps {
 }
 
 const ColorBox = ({ color, onPress }: ColorBoxProps) => (
-  <Pressable onPress={onPress}>
-    <View style={[globalStyles.colorBox, { backgroundColor: color }]}>
+  <Pressable  onPress={onPress}>
+    <View testID='ColorBox' style={[globalStyles.colorBox, { backgroundColor: color }]}>
       {/* Mostrar cod de color */}
       <Text style={globalStyles.colorText}>
         {color}
