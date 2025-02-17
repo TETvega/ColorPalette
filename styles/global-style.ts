@@ -41,6 +41,7 @@ export const globalStyles = StyleSheet.create({
     marginTop: 20,
   },
 
+  // Texto del Boton
   buttonText: {
     color: "#FFF",
     fontSize: 16,
@@ -58,5 +59,29 @@ export const globalStyles = StyleSheet.create({
       fontSize: 14,
       fontWeight: "bold",
       textAlign: "center",
+    },
+
+    label: {
+      fontSize: 16,
+      fontWeight: 'bold',
+      marginBottom: 5,
+      color: '#333',
+    },
+    picker: {
+      height: 50,
+      width: '100%',
+      backgroundColor: '#f0f0f0',
+      borderRadius: 5,
+    },
+
+    input: {
+      height: 40,
+      width: '100%',
+      borderColor: '#ccc',
+      borderWidth: 1,
+      borderRadius: 5,
+      paddingHorizontal: 10,
+      marginBottom: 10,
+      backgroundColor: '#fff',
     },
 });
